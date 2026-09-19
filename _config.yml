@@ -1,0 +1,15 @@
+title: Ruixiang Zhao
+url: "https://ruixiangzhao.github.io"
+baseurl: ""
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - CONTRIBUTING.md
+  - README.md
+  - vendor
+
+# Set the public d= identifier from your own MapMyVisitors embed code.
+# Never use another site's demo identifier.
+visitor_stats:
+  mapmyvisitors_id: "Cjq4cgl5y-gNDRQnQGx_NMbOal7EaV-JmOLTZtZNsiI"
