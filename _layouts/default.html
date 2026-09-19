@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://ruixiangzhao.github.io/">
     <meta property="og:image" content="https://ruixiangzhao.github.io/static/img/profile/ruixiangzhao.jpg">
     <link rel="icon" href="{{ site.baseurl }}/static/img/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css?v={{ site.time | date: '%s' }}">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -50,6 +50,6 @@
       <p>© Ruixiang Zhao <span class="footer-divider" aria-hidden="true">/</span> <a href="https://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a></p>
       <a href="#page-top">Back to top <span aria-hidden="true">↑</span></a>
     </footer>
-    <script src="{{ site.baseurl }}/static/js/visitors.js" defer></script>
+    <script src="{{ site.baseurl }}/static/js/visitors.js?v={{ site.time | date: '%s' }}" defer></script>
   </body>
 </html>

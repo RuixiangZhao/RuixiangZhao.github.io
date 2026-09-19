@@ -51,7 +51,7 @@
   var map = document.createElement('script');
   map.id = 'mapmyvisitors';
   map.async = true;
-  map.src = 'https://mapmyvisitors.com/map.js?d=' + encodeURIComponent(mapId) + '&cl=ffffff&co=2559c7&w=a';
+  map.src = 'https://mapmyvisitors.com/map.js?d=' + encodeURIComponent(mapId) + '&cl=ffffff&co=2559c7&w=240';
   // The current provider renders a vector map, not an <img> element.
   // Its SVG and visitor summary arrive after a separate data request.
   function mapReady() {
