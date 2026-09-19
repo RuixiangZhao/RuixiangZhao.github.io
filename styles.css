@@ -68,7 +68,7 @@ h2 { font-family: var(--serif); font-size: 35px; line-height: 1.25; font-weight:
 .publication-featured .publication-image img { height: 190px; }
 .pub-meta { margin-bottom: 5px; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .pub-meta i { font-style: normal; }
-.pub-meta b { margin-left: 4px; font-size: 11px; font-weight: 600; }
+.pub-meta b { margin-left: 6px; font-size: 1em; font-weight: 650; color: var(--ink); }
 .badge { display: inline-block; margin-left: 5px; padding: 1px 7px; border-radius: 3px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 650; }
 .pub-title { font-size: 24px; font-weight: 650; line-height: 1.35; letter-spacing: -.25px; text-wrap: pretty; }
 .pub-title a { color: var(--ink); }
@@ -88,7 +88,6 @@ sup { font-size: .7em; line-height: 0; }
 .details-grid .eyebrow { font-size: 12px; }
 .detail-label { font-weight: 650; margin-bottom: 6px; }
 .muted { color: var(--muted); }
-#contact > p:last-child { margin-top: 8px; }
 .contact-link { overflow-wrap: anywhere; }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .site-footer a { color: var(--muted); }
@@ -157,7 +156,7 @@ sup { font-size: .7em; line-height: 0; }
 }
 
 /* Live visitor statistics; the map stays neutral until real data is available. */
-.visitor-section { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 24px; align-items: center; border-top: 1px solid var(--line); padding: 20px 0; }
+.visitor-section { display: grid; grid-template-columns: minmax(0, max-content) 240px; justify-content: start; gap: 24px; align-items: center; border-top: 1px solid var(--line); padding: 20px 0; }
 .visitor-section h2 { font-size: 26px; }
 .visitor-section .eyebrow { margin-bottom: 10px; }
 .visitor-count { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-top: 6px; }
@@ -166,7 +165,7 @@ sup { font-size: .7em; line-height: 0; }
 .visitor-status { font-size: 14px; color: var(--muted); margin-top: 3px; }
 .visitor-note { font-size: 14px; color: var(--muted); line-height: 1.5; margin-top: 6px; }
 .visitor-providers { font-size: 13px; color: var(--muted); margin-top: 8px; }
-.visitor-map-panel { min-width: 0; width: 100%; max-width: 240px; justify-self: end; text-align: center; }
+.visitor-map-panel { min-width: 0; width: 100%; max-width: 240px; justify-self: start; text-align: center; }
 .visitor-map-fallback img { width: 100%; height: auto; max-height: 100px; object-fit: contain; }
 .visitor-map-status { font-size: 13px; color: var(--muted); margin-top: 12px; }
 .visitor-map-live { width: 100%; }
@@ -174,7 +173,7 @@ sup { font-size: .7em; line-height: 0; }
 .visitor-map-live img { height: auto; margin-inline: auto; }
 .visitor-section [hidden] { display: none !important; }
 @media (max-width: 850px) {
-  .visitor-section { grid-template-columns: minmax(0, 1fr) 240px; gap: 20px; }
+  .visitor-section { grid-template-columns: minmax(0, max-content) 240px; justify-content: start; gap: 20px; }
 }
 @media (max-width: 600px) {
   .visitor-section { grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 20px 0; }
